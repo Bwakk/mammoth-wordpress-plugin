@@ -1,15 +1,20 @@
 === Mammoth .docx converter ===
-Contributors: michaelwilliamson
+Contributors: michaelwilliamson, Bwakk
 Tags: docx, html, word, office, paste
 Requires at least: 3.5
 Tested up to: 4.5.3
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: BSD 2-clause
 License URI: http://opensource.org/licenses/BSD-2-Clause
 
 Mammoth converts semantically marked up .docx documents to simple and clean HTML, allowing pasting from Word documents without the usual mess.
 
 == Description ==
+
+This is a forked version of Mammoth .docx converter 1.10 that changes the name of uploaded images
+in word documents from "word-image.png" to "the current timestamp.png"
+This allows for more unique names for your images instead of having the name "word-image-#" 
+for every image you upload inside of a word document.
 
 Mammoth is designed to convert .docx documents,
 such as those created by Microsoft Word,
